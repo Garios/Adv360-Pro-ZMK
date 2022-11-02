@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
- &kp F1          &kp F2        &kp F3            &kp F4                &kp F5        &kp F6            &tog 1   &mo 3           &kp F7            &kp F8             &kp F9       &kp F10        &kp F11  &kp F12
- &trans          &kp AT     &sk RA(Q)  &kp LEFT_BRACKET         &kp LESS_THAN     &kp CARET             &none   &none  &kp EXCLAMATION  &kp GREATER_THAN  &kp RIGHT_BRACKET  &kp KP_EQUAL  &kp AMPERSAND   &trans
- &trans  &kp UNDERSCORE  &kp KP_SLASH          &kp LBRC  &kp LEFT_PARENTHESIS  &kp ASTERISK             &none  &trans           &trans                                             &trans         &trans    &none    &kp QMARK  &kp RIGHT_PARENTHESIS           &kp RBRC   &kp BACKSLASH  &kp KP_MINUS  &trans
- &trans        &kp HASH    &kp DOLLAR          &kp PIPE             &kp TILDE     &kp GRAVE             &none   &none           &trans             &none              &none        &trans          &none    &none  &kp KP_PLUS            &kp PERCENT  &kp DOUBLE_QUOTES  &kp APOSTROPHE        &trans  &trans
- &trans          &trans        &trans            &trans                &trans        &trans            &trans  &trans           &trans            &trans             &trans        &trans         &trans   &trans       &trans                 &trans
+ &kp F1         &kp F2          &kp F3            &kp F4             &kp F5        &kp F6            &tog 1   &mo 3           &kp F7         &kp F8            &kp F9       &kp F10        &kp F11        &kp F12
+ &trans      &sk RA(Q)  &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp CARET             &none   &none  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN  &kp KP_EQUAL  &kp AMPERSAND         &trans
+ &trans  &kp BACKSLASH    &kp KP_SLASH          &kp LBRC           &kp RBRC  &kp ASTERISK             &none  &trans           &trans                                         &trans         &trans          &none    &kp QMARK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp KP_MINUS  &sk LS(KP_DOT)  &kp AT
+ &trans       &kp HASH      &kp DOLLAR          &kp PIPE          &kp TILDE     &kp GRAVE             &none   &none           &trans          &none             &none        &trans          &none          &none  &kp KP_PLUS           &kp PERCENT      &kp DOUBLE_QUOTES  &kp APOSTROPHE   &kp SEMICOLON  &trans
+ &trans         &trans          &trans            &trans             &trans        &trans            &trans  &trans           &trans         &trans            &trans        &trans         &trans  &sk LS(CARET)       &trans                &trans
             >;
         };
 
