@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
- &kp F1         &kp F2        &kp F3                    &kp F4        &kp F5        &kp F6            &tog 1   &mo 3      &kp F7                &kp F8                    &kp F9     &kp F10      &kp F11        &kp F12
- &trans      &kp RA(E)  &kp LS(FSLH)                &kp RA(N8)    &kp RA(N9)     &kp GRAVE             &none  &trans  &kp LS(N1)  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(N0)  &kp LS(DOT)         &trans
- &trans  &kp RA(MINUS)    &kp LS(N7)                &kp RA(N7)    &kp RA(N0)  &kp LS(RBKT)             &none  &trans      &trans                                                      &trans       &trans          &none  &kp LS(MINUS)  &kp LS(N8)  &kp LS(N9)      &kp FSLH      &kp RA(Q)  &kp LS(GRAVE)
- &trans       &kp BSLH    &kp LS(N4)  &kp RA(NON_US_BACKSLASH)  &kp RA(RBKT)    &kp LS(N6)             &none   &none      &trans                 &none                     &none      &trans        &none          &none       &kp RBKT  &kp LS(N5)  &kp LS(N2)  &kp LS(BSLH)  &kp LS(COMMA)         &trans
- &trans         &trans        &trans                    &trans        &trans        &trans            &trans  &trans      &trans                &trans                    &trans      &trans       &trans  &kp LS(EQUAL)      &kp EQUAL      &trans
+ &kp F1         &kp F2        &kp F3                    &kp F4      &kp F5                 &kp F6            &tog 1   &mo 3      &kp F7                &kp F8                    &kp F9     &kp F10      &kp F11        &kp F12
+ &trans      &kp RA(E)  &kp LS(FSLH)                &kp RA(N8)  &kp RA(N9)              &kp GRAVE             &none  &trans  &kp LS(N1)  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(N0)  &kp LS(DOT)         &trans
+ &trans  &kp RA(MINUS)    &kp LS(N7)                &kp RA(N7)  &kp RA(N0)           &kp LS(RBKT)             &none  &trans      &trans                                                      &trans       &trans          &none  &kp LS(MINUS)  &kp LS(N8)  &kp LS(N9)      &kp FSLH      &kp RA(Q)  &kp LS(GRAVE)
+ &trans       &kp BSLH    &kp LS(N4)  &kp RA(NON_US_BACKSLASH)  &kp LS(N6)  &kp RA(RIGHT_BRACKET)             &none   &none      &trans                 &none                     &none      &trans        &none          &none       &kp RBKT  &kp LS(N5)  &kp LS(N2)  &kp LS(BSLH)  &kp LS(COMMA)         &trans
+ &trans         &trans        &trans                    &trans      &trans                 &trans            &trans  &trans      &trans                &trans                    &trans      &trans       &trans  &kp LS(EQUAL)      &kp EQUAL      &trans
             >;
         };
 
