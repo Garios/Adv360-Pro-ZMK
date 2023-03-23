@@ -79,11 +79,11 @@
 
         layer_Arrows {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans    &trans   &trans          &trans          &trans           &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans    &trans   &trans          &trans          &trans           &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                             &trans          &trans           &trans  &trans  &trans        &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans    &trans   &trans          &trans          &trans           &trans  &trans  &trans  &kp UP_ARROW  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &kp HOME  &kp END  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans   &trans    &trans   &trans          &trans          &trans           &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans   &trans    &trans   &trans          &trans          &trans           &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans   &trans                             &trans          &trans           &trans  &trans  &trans        &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans   &trans    &trans   &trans          &trans          &trans           &trans  &trans  &trans  &kp UP_ARROW  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &kp DEL  &kp HOME  &kp END  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
             >;
         };
 
